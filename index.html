@@ -11,15 +11,13 @@
    <buttontype="button">
      </button>
   <input type="button" value="cliccami" onclick=" interrogato()"/>
-  <script language:"Javascript>
-    var x = Math.round(10* Math.random());
-    alert(x)
-               
-    function interrogato()
-    var x = document.write (int)(Math.random()*10); 
- 
-  </script> 
-                  
+   
+<p id="interrogato"></p>
+
+<script>
+document.getElementById("interrogato").innerHTML = Math.random();
+</script>
+  
 
   <style>
     p {color: #CC0000;}
