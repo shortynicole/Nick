@@ -12,13 +12,12 @@
      </button>
   
   <input type="button" value="cliccami" Onclick=" interrogato()"/>
-   
-<p Onclick="interrogato()"></p> 
-  
- <script>   
-document.getElementByOnclick("interrogato()").innerHTML = Math.random();
+
+  <p id="interrogato"></p>
+<script>
+document.getElementById("interrogato").innerHTML =
+Math.floor(Math.random() * 10);
 </script>
-  
 
   <style>
    h3 {color: #CC0000;}
